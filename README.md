@@ -1,7 +1,5 @@
 # Retrieval Augmented Generation (RAG) for Question Answering on AIO Course Materials
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
 This project demonstrates how to build a Retrieval Augmented Generation (RAG) system for question answering on educational materials, specifically targeting the AI Việt Nam (AIO) course content.
 
 ## Table of Contents
