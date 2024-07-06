@@ -1,10 +1,16 @@
 import torch
-from transformers import BitsAndBytesConfig
-from transformers import AutoTokenizer, AutoModelForCausalLM, pipeline
+from transformers import BitsAndBytesConfig, AutoTokenizer, AutoModelForCausalLM, pipeline
 from langchain_huggingface.llms import HuggingFacePipeline
 
 
 def get_huggingface_llm(model_name: str = "lmsys/vicuna-7b-v1.5", max_new_token: int = 512):
+    # Ensure sentencepiece is installed
+    try:
+        import sentencepiece
+    except ImportError:
+        raise ImportError(
+            "Please install the 'sentencepiece' library using 'pip install sentencepiece'")
+
     nf4_config = BitsAndBytesConfig(
         load_in_4bit=True,
         bnb_4bit_quant_type="nf4",
