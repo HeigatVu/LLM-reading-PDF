@@ -1,7 +1,5 @@
 # Retrieval Augmented Generation (RAG) for PDF - Question Answering project
 
-[![License: AI VIETNAM](https://scontent.fsgn19-1.fna.fbcdn.net/v/t39.30808-6/326762542_533351005436945_3355631653176967012_n.png?_nc_cat=105&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeE9pOsTEb7zxmRQrvyUBPxgtF52D5hLN4O0XnYPmEs3g7AlMLgEk3fAp7aFuzj6N7_pHZY75KuK2hkn9QFlKhTI&_nc_ohc=RKGdWrggtYQQ7kNvgHyNqOv&_nc_ht=scontent.fsgn19-1.fna&cb_e2o_trans=t&oh=00_AYDul-l8EEwNeIkfQn3WcrS_EnX0GgO6pVPbDRwM9LKR2Q&oe=668F3B3F)](https://www.facebook.com/aivietnam.edu.vn)
-
 This project demonstrates how to build a Retrieval Augmented Generation (RAG) system for PDF - question answering on educational materials, specifically targeting the AI Việt Nam (AIO) course content.
 
 ## Table of Contents
